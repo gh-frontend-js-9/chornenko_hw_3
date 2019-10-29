@@ -27,10 +27,13 @@ nav a {text-decoration: none;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 15px;
-	margin-left:50px;
+	
 
 }
+.top_block li{
 
+	margin-left: 50px;
+}
 ul {
 	display: flex;
 }
@@ -54,7 +57,7 @@ header {
 	width: 86.25rem;
 	height: 50rem;
 	text-align: center;
-	justify-content: center;
+	
 }
 header h1 {
 	width: 568px;
@@ -225,7 +228,7 @@ font-family: Montserrat;
 font-size: 3rem;
 font-weight: 700;
 line-height: 1.278rem;
-margin-left: 800px;
+margin-left: 700px;
 
 }
 .ex_pic{
@@ -348,12 +351,9 @@ line-height: 2rem;
 
 
 .forksub {
-	width: 257px;
-	height: 457px;
-	background-color: #7d6e7c;
-	opacity: 0.3;
-	
-	margin-top: 50px;
+	width: 16.063rem;
+	height: 28.563rem;
+    background-color: rgba(255,255, 255, 0.11);
 
 	}
 
@@ -361,14 +361,20 @@ line-height: 2rem;
 	  -webkit-transform: scale(1.2);
 	  -ms-transform: scale(1.2);
 	  transform: scale(1.2);
-	  background-color: black;
+	  background-color: rgba(0,0,0,0.084);
+	  
+	}
+
+.forksub img {
+		width: 3.75rem;
+		height: 0.313rem;
 	}
 .trablpic h4 {
 	width: 257px;
 	height: 15px;
-	color: black;
-	background-color: #ffffff;
-	opacity: 0.09;
+	color: #ffffff;
+	background-color: rgba(255,255, 255, 0.06);
+
 	font-family: Montserrat;
 	font-size: 24px;
 	font-weight: 400;
@@ -383,26 +389,38 @@ line-height: 2rem;
 .trablpic button {
 	width: 160px;
 	height: 42px;
-	background-color: #7d6e7c;
-	opacity: 0.7;
+	background-color: rgba(215, 215, 215, 0.15); 
 	color: white;
+	border: none;
+
 	border-radius: 50px;
-	margin-top: 150px;
+	margin-top: 50px;
 	}
 
 
 .trablpic p {
 	width: 53.875rem;
 	height: 2.125rem;
-	padding-top: 170px;
+	padding-top: 150px;
 	opacity: 0.8;
 	color: #a291a5;
 	font-family: "Source Sans Pro";
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 21px;
+
 }
 
+.trablpic img {
+padding: 50px;
+}
+.prozoro {
+	opacity: 0.3;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-weight: 400;
+
+}
 .price  {
 	width: 107px;
 	height: 51px;
@@ -461,12 +479,12 @@ line-height: 2rem;
 
 .subscribe h4 {
 	width: 29.188rem;
-height: 1.5rem;
-color: #635c73;
-font-family: Montserrat;
-font-size: 1.875rem;
-font-weight: 700;
-line-height: 3.75rem;
+	height: 1.5rem;
+	color: #635c73;
+	font-family: Montserrat;
+	font-size: 1.875rem;
+	font-weight: 700;
+	line-height: 2.25rem;
 }
 
 .subscribe input {
@@ -483,7 +501,6 @@ line-height: 3.75rem;
 	background-color: #8d81ac;
 	border-radius: 50px;
 	margin: 50px;
-	/* Style for "Subscribe" */
 	color: #ffffff;
 	font-family: Montserrat;
 	font-size: 13px;
@@ -496,10 +513,6 @@ line-height: 3.75rem;
 	height: 44.4rem;
 	width:86.25rem; 
 }
-
-
-
-
 
 .informlist {
 	max-width: 1380px;
@@ -597,23 +610,28 @@ line-height: 3.75rem;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 23px;
+	align-items: flex-start;
 	
 	
 	
 }
 .finf {
 	display: block;
+	float: left;
 
 
 }
-.finf a {
-	color: #8d81ac;
+nav h3  {
+	width: 20rem;
+	margin-left: 38px;
+	padding-bottom: 25px;
 }
 
 
 .forkio li {
 
-width: 250px;
-display: flex;
-margin: 0px 50px 0px 1px;
+	width: 20rem;
+	display: flex;
+	margin: 0px;
+	color: #8d81ac;
 }
