@@ -33,7 +33,7 @@ nav {
 	}
 
 header {
-	width: 30rem;
+	max-width: 30rem;
 	height: 47.5rem;
 	background-position: center;
 	}
@@ -42,40 +42,55 @@ header button  {
     margin-left: 0px;
 }
 
-.txt {
-	width: 28.25rem;
-height: 3.625rem;
-line-height: 2.125rem;
-}
+
 
 .revoleditor {
 		max-width: 30rem;
-		height: 618px;
-		font-size: 50%;
-		font-weight: 50%;
+		height: 318px;
+		
 		
 	}
 
 .revoleditor h2 {
 		width: 26.438rem;
-height: 5.25rem;
-color: #635c73;
-line-height: 3rem;
+		height: 5.25rem;
+		line-height: 3rem;
+		font-size: 3rem;
+		padding: 50px 0px 0px 0px;
+		margin: 10px;
 	}
-	.revoleditor ul  
+
+.revoleditor ul  
 	 {display: flex;
 		padding: 0px 50px 0px 50px;
 	}
 
 .account {
 	max-width:30rem;
+	height: 453px;
+	padding: 50px 0px 50px 0px;
+	
 }
-
+.account button {
+	margin: 0px 75px 25px 75px;
+}
 .account ul {
 	display: inline-block;
 
-}
 
+}
+.account_inf {
+
+	width: 20.313rem;
+	height: 7.938rem;
+	font-size: 1.063rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+
+}
+.accont span {
+	padding: 5px;
+}
 .follow span {
 	opacity: 0;
 }
@@ -88,13 +103,11 @@ line-height: 3rem;
 
 .example_code li {
 	display: flex;
-	width: 25rem;
 
 }
 .txt {
 	display: none;
 }
-
 
 
 	.codepicfirst {
@@ -173,12 +186,26 @@ background-color: #4b3b4e;
 
 	
 .trablpic{
-max-width: 30rem;
-height: 156.375rem;
-background-color: #4b3b4e;
-background-image: url(img/adtrabfon.png);
+	max-width: 30rem;
+	height: 156.375rem;
+	background-color: #4b3b4e;
+	background-image: url(img/adtrabfon.png);
+	justify-content: center;
 
 
+}
+.forksub {
+	margin: 25px 35px 25px 5px;
+}
+
+.trablpic p {
+
+	width: 22.688rem;
+	height: 7.313rem;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.313rem;
+	margin: -50px 30px 50px 30px;
 }
 .subscribe {
 	max-width: 30rem;
@@ -192,6 +219,11 @@ background-image: url(img/adtrabfon.png);
 	width: 25.25rem;
    height: 1.875rem;
 }
+.forkio {
+	max-width: 30rem;
+	height: 75rem;
+
+	}
 
 .inform { 
 max-width: 30rem;
@@ -207,28 +239,15 @@ max-width: 30rem;
 .inform li{
 		display: flex;
     	flex-wrap: wrap;
+    	width: 24.5rem;
+
 	}
-
-.forkio {
-	max-width: 30rem;
-	height: 65rem;
-
-	
-}
-
-
 
 .footinf {
-	padding: 50px;
+	padding: 100px;
 
 		
 	}
-
-.finf {
-		padding: 0px;
-		
-	}
-
 
 
 }
