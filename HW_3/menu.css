@@ -12,7 +12,7 @@
     background-color: Transparent;
     }
     
-.mainmenu {
+.nav-menu-mobile {
     display: inline-block;
     position: absolute;
     top: 40px;
@@ -21,7 +21,7 @@
 }
 .dropdown-child {
     display: none;
-    background-color: Transparent;
+    background-color: black;
     min-width: 200px;
 }
 .dropdown-child a {
@@ -30,7 +30,7 @@
     text-decoration: none;
     display: block;
 }
-.mainmenu:hover .dropdown-child {
+.nav-menu-mobile:hover .dropdown-child {
     display: block;
     position: fixed;
 }
